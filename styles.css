@@ -37,16 +37,20 @@ nav {
   font-size:40px;
   font-weight:bold;
   display: inline-block;
-  margin-left:80px;
+  /*margin-left:80px;*/
   margin-top:25px;
   float:left;
+	width:55%;
+	padding-left: 120px;
+	box-sizing:border-box;
 }
 .sign-in {
   display: inline-block;
   font-size: 12px;
-  margin-right:80px;
-  margin-top:30px;
+  /*margin-right:80px;
+  */margin-top:30px;
   float:right;
+	width:45%;
 }
 
 #pass-label {
@@ -60,4 +64,56 @@ nav {
   background-color: #4267b2;
   border: rgb(41, 72, 125) solid 2px;
   color:#fff;
+}
+
+.left {
+	float:left;
+	width:55%;
+}
+
+h2 {
+	font-size:28px;
+	margin-bottom:20px;
+}
+ul {
+	list-style-type: circle;
+	margin-left:40px;
+}
+li {
+	font-size:16px;
+	margin-bottom:16px;
+}
+
+#left-list {
+	margin-top:70px;
+	margin-right:120px;
+	float:right;
+}
+
+.right {
+	float:right;
+	width:45%;
+}
+
+h1 {
+	font-size:32px;
+
+}
+
+#right-form {
+	width:340px;
+}
+
+.half-form {
+	width:159px;
+}
+
+.full-form {
+	width:330px;
+}
+
+input[name="sign-up-button"] {
+	background-color:green;
+	color:white;
+	border-color:black;
 }
