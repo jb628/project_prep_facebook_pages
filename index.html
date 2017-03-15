@@ -34,13 +34,14 @@
         <div id="right-form">
           <h1>Sign Up</h1>
           <form class="sign-up" action="index.html" method="post">
-            <input type="text"  name="first-name" value="" class="half-form">
-            <input type="text"  name="last-name" value="" class="half-form"><br>
-            <input type="email" name="sign-up-email" value="" class="full-form"><br>
-            <input type="password" name="sign-up-password" value="" class="full-form"><br>
-            <input type="password" name="confirm-password" value="" class="full-form"><br>
-            <div>Birthday</div>
+            <input type="text"  name="first-name" value="" placeholder = "First Name" class="half-form">
+            <input type="text"  name="last-name" value="" placeholder = "Last Name" class="half-form"><br>
+            <input type="email" name="sign-up-email" value="" placeholder = "Your Email" class="full-form"><br>
+            <input type="password" name="sign-up-password" value="" placeholder = "Your New Password" class="full-form"><br>
+            <input type="password" name="confirm-password" value="" placeholder = "Confirm Your Password" class="full-form"><br>
+            <div id="birthday-text">Birthday</div>
             <select class="birthday" name="month">
+              <option value="" selected data-default>Month</option>
               <option value="january">January</option>
               <option value="february">February</option>
               <option value="march">March</option>
@@ -55,6 +56,7 @@
               <option value="december">December</option>
             </select>
             <select class="birthday" name="day">
+              <option value="" selected data-default>Day</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -89,6 +91,7 @@
 
             </select>
             <select class="birthday" name="year">
+              <option value="" selected data-default>Year</option>
               <option value="2017">2017</option>
               <option value="2016">2016</option>
               <option value="2015">2015</option>

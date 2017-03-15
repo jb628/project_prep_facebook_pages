@@ -81,7 +81,7 @@ ul {
 }
 li {
 	font-size:16px;
-	margin-bottom:16px;
+	line-height: 50px;
 }
 
 #left-list {
@@ -97,11 +97,13 @@ li {
 
 h1 {
 	font-size:32px;
-
+	margin-bottom:15px;
 }
 
 #right-form {
+	margin-top:20px;
 	width:340px;
+	height:600px;
 }
 
 .half-form {
@@ -112,8 +114,35 @@ h1 {
 	width:330px;
 }
 
+input[type="text"], input[type="email"], input[type="password"] {
+	margin-bottom:15px;
+	height:22px;
+	font-size: 16px;
+
+}
+
+#birthday-text {
+	margin-top:10px;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+
+select option[data-default] {
+	color: #888;
+}
+
+.birthday {
+	margin-bottom:10px;
+}
+
+input[type="radio"] {
+	margin-bottom:10px;
+}
+
 input[name="sign-up-button"] {
 	background-color:green;
 	color:white;
 	border-color:black;
+	height:30px;
+	font-size:18px;
 }
