@@ -162,7 +162,10 @@ input[name="sign-up-button"] {
 
 .nav-container {
 	margin: 0 auto 0 auto;
-	text-align: center;
+	/*text-align: center;*/
+	position: relative;
+	left:10%;
+
 }
 
 .nav-container img{
@@ -197,10 +200,62 @@ input[name="sign-up-button"] {
 	margin-left: 100px;
 }
 
-.nav-right a {
-	text-decoration: none;
+.nav-links {
+	/*text-decoration: none;
 	color:#fff;
 	font-size:14px;
 	margin-right:10px;
 	font-weight: normal;
+	height:30px;
+	background-color:green;
+	line-height: 28px;*/
+	transparent;
+    color: inherit;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    height: 27px;
+    line-height: 28px;
+    padding: 0 10px 1px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.main-container {
+	width:80%;
+	position: relative;
+	left:10%;
+}
+
+.top-picture-menu {
+	height:350px;
+	width:850px;
+	position:relative;
+
+}
+
+.cover-pic {
+	height:315px;
+	width:850px;
+}
+
+.cover-pic img{
+		height:100%;
+		width:100%;
+}
+
+h1.cover-name {
+	position: absolute;
+	bottom:50px;
+	left:200px;
+	font-size:24px;
+}
+
+.message {
+	position:absolute;
+	right:45px;
+	bottom:68px;
 }
