@@ -401,3 +401,39 @@ h1.cover-name {
 .right-about li:first-child {
 	border-top:none;
 }
+
+
+/*friend list*/
+
+.friend-container {
+	padding: 14px 14px 0 15px;
+}
+
+.friend-list {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+
+}
+
+.friend-list li {
+	border: 1px solid #e9ebee;
+	display:inline-block;
+	margin: 0 0 13px 13px;
+	padding: 0 10px 0 0;
+	width:390px;
+}
+
+.friend-element-container a{
+	margin-right:10px;
+	display:block;
+	text-decoration: none;
+	cursor:pointer;
+	color:#365899;
+	height:100px;
+	width:100px;
+}
+
+.add-friend {
+	display:inline-block;
+}
