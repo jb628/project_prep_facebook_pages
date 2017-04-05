@@ -476,3 +476,91 @@ h1.cover-name {
 	font-size:12px;
 	color: #7f7f7f;
 }
+
+.newsfeed-left {
+	border-right: 1px solid black;
+  float: left;
+  width: 300px;
+}
+
+.newsfeed-left-profile {
+	height: 55px;
+  position: relative;
+  top: 30px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.newsfeed-left h3 {
+	margin-top:65px;
+	font-weight: bold;
+	font-size: 14px;
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.newsfeed-image {
+	float:left;
+}
+
+.newsfeed-image img {
+	height:55px;
+	width: 55px;
+}
+
+.newsfeed-name {
+	float: left;
+}
+
+.newsfeed-name a{
+	display: block;
+	margin-left: 10px;
+}
+
+.newsfeed-left ul {
+	margin-top:20px;
+	margin-bottom:40px;
+	width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+	list-style-type: none;
+}
+
+.newsfeed-left ul li {
+	line-height: 12px;
+	margin-top:15px;
+}
+
+.see-friends {
+	width: 250px;
+  margin-left: 23px;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.recently-image {
+		display:inline-block;
+}
+
+.recently-name {
+	display: inline-block;
+}
+
+.recently-image img {
+	height:35px;
+	width:35px;
+}
+.recently-name a {
+
+}
+.recently-name p {
+
+}
+
+.newsfeed-right {
+	border-left: 1px solid black;
+    float: right;
+}
