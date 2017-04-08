@@ -554,13 +554,35 @@ h1.cover-name {
 	width:35px;
 }
 .recently-name a {
-
+	font-size: 14px;
 }
 .recently-name p {
-
+	font-size: 12px;
 }
 
 .newsfeed-right {
-	border-left: 1px solid black;
-    float: right;
+  float: right;
+	width: calc(100% - 303px);
+}
+
+.newsfeed-right-container {
+	width:500px;
+	margin: 0 auto 0 auto;
+}
+
+.status-update {
+	background-color:white;
+	margin-top:30px;
+	border: 1px solid black;
+}
+
+.status-header ul {
+	margin:0;
+	background-color: #f6f7f9;
+}
+
+.status-header li {
+	list-style-type: none;
+	margin:0;
+	display: inline-block;
 }
